@@ -139,7 +139,7 @@ with open(output_file, 'w') as file:
     file.write(loqi_tree_output)
 print(f"Final output written to {output_file}")
 
-i = 2
+i = 3
 
 # file_1 = '../loqiDomainGenerator/init_with_rules.loqi'
 # file_2 = output_file
