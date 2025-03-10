@@ -71,6 +71,7 @@
             <div class="header-content text-center">
                 <button class="btn btn-outline-light btn-lg">Задать вопрос о программе</button>
                 <button class="btn btn-outline-light btn-lg">Телеграм-канал для абитуриентов</button>
+				<button class="btn btn-outline-light btn-lg">Телеграм-канал для студентов</button>
             </div>
             
 
@@ -115,7 +116,7 @@
             </div>
             <div class="col-4">
                 <div class="row">
-                    <!-- Боковое меню -->
+                    <!-- Ме -->
             <div class="col">
                 <div class="sidebar">
                     <ul class="list-unstyled">
@@ -126,7 +127,6 @@
                         <li><a href="#">Факультативы ФКН</a></li>
                         <li><a href="#">Партнёры</a></li>
                         <li><a href="#">Достижения студентов</a></li>
-                        <li><a href="#">Выпускники</a></li>
                         <li><a href="#">ИИ 360: Инженерия искусственного интеллекта</a></li>
                     </ul>
                     <button class="btn btn-primary w-100">Приёмная комиссия</button>

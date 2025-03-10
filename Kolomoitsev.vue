@@ -3,7 +3,7 @@
 import BlockNode from "./BlockNode.vue";
 
 /* ---------- CONSTANTS ---------- */
-const inputColor = "bg-blue-500"
+const inputColor = "bg-black-500"
 const outputColor = "bg-green-500"
 
 /* ---------- VUE OBJECTS ---------- */
@@ -29,7 +29,7 @@ export default {
 
   computed: {
     isReversed() {
-      return this.type.toLocaleLowerCase().includes("out")
+      return this.type.toLocaleLowerCase().includes("in")
     },
     getColor() {
       if (this.isReversed) {
