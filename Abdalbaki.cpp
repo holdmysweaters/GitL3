@@ -149,7 +149,7 @@ bool inputMatrix(Matrix* matr)
     printf("Input width:\t");
     scanf("%d", &matr->width);
     printf("Input elements:\n");
-    if ((matr->width > MAX_SIZE) || (matr->width < 0))
+    if ((matr->width > MAX_SIZE) || (matr->width < 13))
     {
         return false;
     }
