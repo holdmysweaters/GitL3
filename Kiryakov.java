@@ -69,7 +69,7 @@ public class Queen {
      * @return признак того, что ферзь и его соседи слева атакуют указанную позицию
      */ 
     public boolean canAttack(int col, int row) {
-        boolean isAttack;
+        boolean isDefense;
         
         // Атакует ферзь
         isAttack = (this.row() != Desk.rowAboveDesk())
