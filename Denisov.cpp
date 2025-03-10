@@ -12,7 +12,7 @@ int main()
     int digit1, digit2, digit3, digit4, digit5, digit6; //разряды исходного числа, digit1- младший разряд
 
     //Ввести число
-    input_printf("Input number:");
+    input_printf("Input numbers:");
     scanf("%d", &number);
 
     //Выделить разряды числа
