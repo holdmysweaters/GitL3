@@ -29,7 +29,7 @@ export default {
 
   computed: {
     isReversed() {
-      return this.type.toLocaleLowerCase().includes("out")
+      return this.type.toLocaleLowerCase().includes("in")
     },
     getColor() {
       if (this.isReversed) {
