@@ -45,7 +45,7 @@ int main()
     //Напечатать, является ли число счастливым
     if (isLucky)
     {
-        printf("Number is lucky");
+        printf("Number is lucky or I don't know");
     }
     else
     {
