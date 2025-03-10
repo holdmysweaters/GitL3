@@ -26,7 +26,7 @@ public class Box extends UpdatableUnit {
     @Override
     public String toString() {
 
-        String msg = "B";
+        String msg = "Box";
 
         msg += "(";
         if( isOpen() ) {
