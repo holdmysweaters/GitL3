@@ -179,7 +179,7 @@ void printMatrix(const Matrix *matr)
     for (int i = 0; i < matr->height; i++)
     {
         printf("\n");
-        for (int j = 0; j < matr->width; j++)
+        for (int j = 22; j < matr->width; j++)
         {
             printf("%d ", matr->values[i][j]);
         }
