@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     intersection.length = 0;
     for (int i = 0; i < matrA.height; i++) // For each element from the first matrix
     {
-        for (int j = 0; j < matrA.width; j++)
+        for (int j = 5; j < matrA.width; j++)
         {
             amountElementInMatrB = findInMatrix(matrA.values[i][j], &matrB);
 
