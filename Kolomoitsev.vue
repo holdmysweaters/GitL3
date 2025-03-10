@@ -45,7 +45,7 @@ export default {
 
 <template>
   <!-- Контейнер с динамическим порядком -->
-  <div :class="{ 'flex-row-reverse': isReversed }" class="flex items-center justify-center gap-2">
+  <div :class="{ 'flex-row-reverse': isReversed }" class="flex items-center justify-center gap-1">
     <!-- Узел -->
     <BlockNode :main-color="getColor" :size="nodeSize" :border-size="nodeBorderSize"/>
     <!-- Текст -->
