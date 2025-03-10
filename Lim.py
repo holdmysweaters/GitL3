@@ -35,7 +35,6 @@ dependency_map = {
     "cop": ("cop", "none"),
     "mark": ("mark", "none"),
     "det": ("det", "none"),
-    "det:predet": ("det", "predet"),
     "cc": ("cc", "none"),
     "compound": ("compound", "none"),
 }
