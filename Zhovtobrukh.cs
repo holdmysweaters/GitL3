@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BonusController : MonoBehaviour
 {
-    private Camera mainCamera;
+    private Camera main_Camera;
     private Vector3 offset;
     private bool isSelected = false; // Флаг, обозначающий, выбран ли бонус
     private GameObject targetPipe;
