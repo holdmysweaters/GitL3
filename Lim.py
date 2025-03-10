@@ -8,7 +8,6 @@ dependency_map = {
     "root": ("root", "none"),
     "nsubj": ("nsubj", "none"),
     "obj": ("obj", "none"),
-    "iobj": ("iobj", "none"),
     "nummod": ("nummod", "none"),
     "ccomp": ("ccomp", "none"),
     "xcomp": ("xcomp", "none"),
