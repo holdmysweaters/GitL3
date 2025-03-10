@@ -7,7 +7,7 @@
 
 int main()
 {
-    int number; //число, которое предположительно является счастливым
+    int number, count; //число, которое предположительно является счастливым
     bool isLucky; //признак того, что число является действительно счастливым
     int digit1, digit2, digit3, digit4, digit5, digit6; //разряды исходного числа, digit1- младший разряд
 
@@ -43,7 +43,7 @@ int main()
     isLucky = (digit1 == digit4) && ((digit2 == digit5) && (digit3 == digit6));
 
     //Напечатать, является ли число счастливым
-    if (isLucky)
+    if (!isLucky)
     {
         printf("Number is lucky or I don't know");
     }
