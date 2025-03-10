@@ -12,7 +12,7 @@ template <typename S>
 ostream& operator<<(ostream& os, const vector<S>& vector) {
     for (auto i : vector)
         os << i << " ";
-    return os;
+    return os; // commit my brach line 15
 }
 
 void FractionalArithmeticCalculator::run(const string& inputFilePath, const string& outputFilePath) {
