@@ -1,6 +1,7 @@
 package Model.units;
 
 import Model.updatableunit.UpdatableUnit;
+import Model.updatableunit.Robot;
 
 // 
 public class Box extends UpdatableUnit {
