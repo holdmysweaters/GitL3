@@ -108,7 +108,7 @@ def merge_files(file1_path, file2_path, output_file_path):
         with open(output_file_path, 'w') as output_file:
             # Write content from both files to the output file
             output_file.write(file1_content)
-            output_file.write("\n")  # Optional: Add a newline between the contents
+            output_file.write("\n")
             output_file.write(file2_content)
 
         print(f"Files merged successfully into {output_file_path}")
