@@ -1,4 +1,4 @@
-#include "FractionalArithmeticCalculator.h"
+#include "FractionalArithmeticCalculator.h" // main first commit
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -32,7 +32,7 @@ void FractionalArithmeticCalculator::run(const string& inputFilePath, const stri
 
 void FractionalArithmeticCalculator::readInputFile(const string& inputFilePath) {
     cout << "DEBUG: Reading input file: " << inputFilePath << endl;
-    ifstream inputFile(inputFilePath);
+    ifstream inputFile(inputFilePath); // second commit main line 35 
     if (!inputFile) {
         throw runtime_error("Invalid input file path");
     }
