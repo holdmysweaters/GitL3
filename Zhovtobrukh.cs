@@ -77,7 +77,7 @@ public class BonusController : MonoBehaviour
     }
     private void CleanPipe(string newTag, string currentTag)
     {
-        if (currentTag == "DirtyPipe")
+        if (currentTag == "DirtyPipes")
         {
             Destroy(targetPipe.GetComponent<DirtyPipeController>());
         }
