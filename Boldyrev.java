@@ -11,7 +11,7 @@ import brokenrobotgame.model.robots.*;
 public class GameModel
 {
     private static int startRobotsAmountOfCharge = 12;
-    private static int startRobotsChargeCapacity = 12;
+    private static int startRobotsChargeCapacity = 20;
 
 
     GameField _field = new GameField();
