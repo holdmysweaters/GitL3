@@ -32,7 +32,7 @@ public class Box extends UpdatableUnit {
         if( isOpen() ) {
             msg += "o";
         } else {
-            msg += "c";
+            msg += "cl";
         }
         msg += ")";
 
