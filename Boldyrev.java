@@ -11,7 +11,7 @@ import brokenrobotgame.model.robots.*;
 public class GameModel
 {
     private static int startRobotsAmountOfCharge = 12;
-    private static int startRobotsChargeCapacity = 12;
+    private static int startRobotsChargeCapacity = 20;
 
 
     GameField _field = new GameField();
@@ -59,7 +59,7 @@ public class GameModel
         _field.addWall(new MiddlePosition(robot().position(), Direction.south()), new WallPiece(_field));
         Battery outBattery = new Battery(_field, 5, 3);
 
-        _field.addBattery(new CellPosition(2, 1), outBattery);
+        _field.addBattery(new CellPosition(4, 4), outBattery);
         _field.addBattery(robot().position().next(Direction.south()).next(Direction.south()), outBattery);
 
         _field.addDoor(new MiddlePosition(new CellPosition(5, 4), Direction.east()), new Door(_field));
