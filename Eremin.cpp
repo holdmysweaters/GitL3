@@ -80,7 +80,7 @@ int main(void)
 	\param [in] begPos - индекс начала подстроки, которая будет удалена
 	\param [in] endPos - индекс конца подстроки, которая будет удалена
 */
-void cutString(char str[81], int beginPos, int endPos)
+void cut(char str[81], int beginPos, int endPos)
 {	
 	strcpy(str + beginPos, str + endPos + 1);
 }
