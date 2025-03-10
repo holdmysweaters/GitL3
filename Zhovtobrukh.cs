@@ -43,7 +43,7 @@ public class BonusController : MonoBehaviour
             isSelected = false;
         }
 
-        if (isSelected && Input.GetMouseButtonDown(0))
+        if (!isSelected && Input.GetMouseButtonDown(0))
         {
             offset = transform.position - new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
         }
