@@ -150,10 +150,6 @@ void deleteBlanks(char str[81])
 		{
 			cutString(str, left_edge + 1, right_edge);	// Между символами остаётся один пробел
 		}
-		else											// Между словами один пробел, но его не нужно удалять
-		{
-			str_pointer++;								// Перевод указателя на канчало следующего слова
-		}
 	}
 }
 
@@ -405,4 +401,8 @@ void testCutString()
 		printf("All is OK\n\n");
 	}
 
+}
+
+void func() {
+	
 }

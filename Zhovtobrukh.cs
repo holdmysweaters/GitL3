@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BonusController : MonoBehaviour
 {
-    private Camera mainCamera;
+    private Camera main_Camera;
     private Vector3 offset;
     private bool isSelected = false; // Флаг, обозначающий, выбран ли бонус
     private GameObject targetPipe;
@@ -43,7 +43,7 @@ public class BonusController : MonoBehaviour
             isSelected = false;
         }
 
-        if (isSelected && Input.GetMouseButtonDown(0))
+        if (!isSelected && Input.GetMouseButtonDown(0))
         {
             offset = transform.position - new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
         }
