@@ -19,7 +19,6 @@ int main(void)
 
 	// Запуск тестовых драйверов
 	//testDeleteBlanks();
-	//testCutString();
 
 	int num_of_str;								// Количество строк текста для считывания
 
