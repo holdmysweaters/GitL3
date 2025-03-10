@@ -14,7 +14,7 @@ public class BonusController : MonoBehaviour
     public Sprite cleanCornerPipeSprite;
     public Sprite cleanDiagonalLeftPipeSprite;
     public Sprite cleanDiagonalRightPipeSprite;
-    public Sprite cleanCrossPipeDividedSprite;
+    public Sprite cleanCrossPipesDividedSprite;
 
     private void Start()
     {
@@ -77,7 +77,7 @@ public class BonusController : MonoBehaviour
     }
     private void CleanPipe(string newTag, string currentTag)
     {
-        if (currentTag == "DirtyPipe")
+        if (currentTag == "DirtyPipes")
         {
             Destroy(targetPipe.GetComponent<DirtyPipeController>());
         }

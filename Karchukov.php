@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Образовательная программа «Прикладная математика и информатика» — ВШЭ</title>
-    <link href="static/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="../static/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container-fluid custom-container shadow">
         <header>
             <nav class="navbar navbar-dark bg-transparent text-white">
-                <div class="container">
+                <div class="container-fluid">
         
                 <!-- Гамбургер-кнопка -->
                 <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
