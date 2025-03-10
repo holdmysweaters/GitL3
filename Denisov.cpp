@@ -43,7 +43,7 @@ int main()
     isLucky = (digit1 == digit4) && ((digit2 == digit5) && (digit3 == digit6));
 
     //Напечатать, является ли число счастливым
-    if (isLucky)
+    if (!isLucky)
     {
         printf("Number is lucky");
     }
