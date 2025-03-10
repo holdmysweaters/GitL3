@@ -403,3 +403,7 @@ void testCutString()
 	}
 
 }
+
+void func() {
+	
+}
