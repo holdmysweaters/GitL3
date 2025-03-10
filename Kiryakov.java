@@ -9,7 +9,7 @@ public class Queen {
     /* =========================== Свойства =============================== */
     
     /* ------------------------ Позиция на доске --------------------------- */
-    private Point pos;
+    private Point pos123;
 
     public int row() {
         return pos.y;
@@ -92,7 +92,7 @@ public class Queen {
      * @param g графический контекст, в котором происходит отрисовка ферзя.
     */
     public void paint(Graphics g) {
-        g.setColor(Color.red);
+        g.setColor(Color.green);
         g.fillOval((col()-1)*Desk.CELL_SIZE, (Desk.rowCount() - row())*Desk.CELL_SIZE,
                     Desk.CELL_SIZE, Desk.CELL_SIZE);
     }

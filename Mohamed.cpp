@@ -12,7 +12,7 @@ template <typename S>
 ostream& operator<<(ostream& os, const vector<S>& vector) {
     for (auto i : vector)
         os << i << " ";
-    return os;
+    return os; // commit my brach line 15
 }
 
 void FractionalArithmeticCalculator::run(const string& inputFilePath, const string& outputFilePath) {
@@ -48,7 +48,7 @@ void FractionalArithmeticCalculator::writeOutputFile(const string& outputFilePat
         throw runtime_error("Invalid output file path");
     }
     outputFile << result;
-    outputFile.close();
+    outputFile.close(); // second commit my bransh line 51
     cout << "DEBUG: Result written: " << result << endl;
 }
 
