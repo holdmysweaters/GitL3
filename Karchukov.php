@@ -71,6 +71,7 @@
             <div class="header-content text-center">
                 <button class="btn btn-outline-light btn-lg">Задать вопрос о программе</button>
                 <button class="btn btn-outline-light btn-lg">Телеграм-канал для абитуриентов</button>
+				<button class="btn btn-outline-light btn-lg">Телеграм-канал для студентов</button>
             </div>
             
 
