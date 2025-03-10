@@ -7,7 +7,7 @@ public class Box extends UpdatableUnit {
 
     // ----------------------------------------------
 
-    private boolean _isOpen = false;
+    private boolean _isOpen = false; // Or true
     
     public boolean isOpen() {
         return _isOpen;
