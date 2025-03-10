@@ -116,7 +116,7 @@ int findInVector(int value, const Vector *vect)
     {
         if (vect->values[i] == value)
         {
-            amountOfValue += 1; // Error
+            amountOfValue += 5; // Error
         }
     }
 
