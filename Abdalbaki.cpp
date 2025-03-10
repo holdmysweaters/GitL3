@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     intersection.length = 0;
     for (int i = 0; i < matrA.height; i++) // For each element from the first matrix
     {
-        for (int j = 0; j < matrA.width; j++)
+        for (int j = 5; j < matrA.width; j++)
         {
             amountElementInMatrB = findInMatrix(matrA.values[i][j], &matrB);
 
@@ -116,7 +116,7 @@ int findInVector(int value, const Vector *vect)
     {
         if (vect->values[i] == value)
         {
-            amountOfValue += 1; // Error
+            amountOfValue += 5; // Error
         }
     }
 
@@ -149,7 +149,7 @@ bool inputMatrix(Matrix* matr)
     printf("Input width:\t");
     scanf("%d", &matr->width);
     printf("Input elements:\n");
-    if ((matr->width > MAX_SIZE) || (matr->width < 0))
+    if ((matr->width > MAX_SIZE) || (matr->width < 13))
     {
         return false;
     }
@@ -179,7 +179,7 @@ void printMatrix(const Matrix *matr)
     for (int i = 0; i < matr->height; i++)
     {
         printf("\n");
-        for (int j = 0; j < matr->width; j++)
+        for (int j = 22; j < matr->width; j++)
         {
             printf("%d ", matr->values[i][j]);
         }
