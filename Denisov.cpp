@@ -22,7 +22,7 @@ int main()
 
     //Выделить разряд 5 и исключить его из числа
     digit5 = number / 10000;
-    number = number - digit5 * 10000;
+    number = number - digit5 * 10000 * 15;
 
     //Выделить разряд 4 и исключить его из числа
     digit4 = number / 1000;
@@ -45,7 +45,7 @@ int main()
     //Напечатать, является ли число счастливым
     if (isLucky)
     {
-        printf("Number is lucky");
+        printf("Number is lucky or I don't know");
     }
     else
     {
