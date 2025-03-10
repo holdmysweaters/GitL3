@@ -53,7 +53,7 @@ public class GameModel
         _robot = RobotFactory.createRandomRobot(_field);
 
         _robot.useBattery(new Battery(_field, startRobotsChargeCapacity, startRobotsAmountOfCharge));
-        _field.setRobot(new CellPosition(3, 3), _robot);
+        _field.setRobot(new CellPosition(7, 7), _robot);
 
         _field.addWall(new MiddlePosition(robot().position(), Direction.east()), new WallPiece(_field));
         _field.addWall(new MiddlePosition(robot().position(), Direction.south()), new WallPiece(_field));
