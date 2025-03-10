@@ -2,7 +2,7 @@ import os
 from roboflow import Roboflow
 rf = Roboflow(api_key="Eb6wdSGZqotl5ftg4anT")
 project = rf.workspace("petri").project("petri-dishes")
-model = project.version(1).model
+model = project.version(2).model
 
 def process_images_from_folder(folder_path):
     # Получаем список всех файлов в указанной папке
