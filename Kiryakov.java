@@ -43,7 +43,7 @@ public class Queen {
     * @return признак того, что позиция найдена
     */
     public boolean findNewAcceptablePosition() {
-        boolean isFind = false;
+        boolean isFind = true;
 
         // Ищем позицию собственными силами...
         // Пока позиция не найдена и не вышли за пределы доски
