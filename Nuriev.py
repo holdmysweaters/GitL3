@@ -9,7 +9,7 @@ def process_images_from_folder(folder_path):
     files = os.listdir(folder_path)
 
     # Фильтруем только изображения (например, файлы с расширением .jpg, .png)
-    image_files = [f for f in files if f.endswith(('.jpg', '.jpeg', '.png', '.bmp', '.gif'))]
+    image_files = [f for f in files if f.endswith(('.jpg', '.jpeg', '.png', '.bmp', '.gif', '.webp'))]
 
     # Проверяем, есть ли изображения в папке
     if not image_files:
@@ -34,3 +34,4 @@ def process_images_from_folder(folder_path):
 # Укажите путь к вашей папке с изображениями
 folder_path = 'D:/2kurs/1234'
 process_images_from_folder(folder_path)
+print("Готово!")
