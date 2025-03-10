@@ -14,7 +14,7 @@ public class BonusController : MonoBehaviour
     public Sprite cleanCornerPipeSprite;
     public Sprite cleanDiagonalLeftPipeSprite;
     public Sprite cleanDiagonalRightPipeSprite;
-    public Sprite cleanCrossPipeDividedSprite;
+    public Sprite cleanCrossPipesDividedSprite;
 
     private void Start()
     {
