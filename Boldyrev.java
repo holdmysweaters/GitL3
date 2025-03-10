@@ -11,7 +11,7 @@ import brokenrobotgame.model.robots.*;
 public class GameModel
 {
     private static int startRobotsAmountOfCharge = 12;
-    private static int startRobotsChargeCapacity = 12;
+    private static int startRobotsChargeCapacity = 20;
 
 
     GameField _field = new GameField();
@@ -53,19 +53,19 @@ public class GameModel
         _robot = RobotFactory.createRandomRobot(_field);
 
         _robot.useBattery(new Battery(_field, startRobotsChargeCapacity, startRobotsAmountOfCharge));
-        _field.setRobot(new CellPosition(3, 3), _robot);
+        _field.setRobot(new CellPosition(7, 7), _robot);
 
         _field.addWall(new MiddlePosition(robot().position(), Direction.east()), new WallPiece(_field));
         _field.addWall(new MiddlePosition(robot().position(), Direction.south()), new WallPiece(_field));
         Battery outBattery = new Battery(_field, 5, 3);
 
-        _field.addBattery(new CellPosition(2, 1), outBattery);
+        _field.addBattery(new CellPosition(4, 4), outBattery);
         _field.addBattery(robot().position().next(Direction.south()).next(Direction.south()), outBattery);
 
         _field.addDoor(new MiddlePosition(new CellPosition(5, 4), Direction.east()), new Door(_field));
         _field.addDoor(new MiddlePosition(new CellPosition(1, 1), Direction.north()), new Door(_field));
 
-        _targetPos = robot().position().next(Direction.west());
+        _targetPos = robot().position().next(Direction.east());
     }
 
     private void destroyAllBatteries()

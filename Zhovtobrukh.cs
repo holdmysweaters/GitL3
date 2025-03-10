@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BonusController : MonoBehaviour
 {
-    private Camera mainCamera;
+    private Camera main_Camera;
     private Vector3 offset;
     private bool isSelected = false; // Флаг, обозначающий, выбран ли бонус
     private GameObject targetPipe;
@@ -14,7 +14,7 @@ public class BonusController : MonoBehaviour
     public Sprite cleanCornerPipeSprite;
     public Sprite cleanDiagonalLeftPipeSprite;
     public Sprite cleanDiagonalRightPipeSprite;
-    public Sprite cleanCrossPipeDividedSprite;
+    public Sprite cleanCrossPipesDividedSprite;
 
     private void Start()
     {
@@ -43,7 +43,7 @@ public class BonusController : MonoBehaviour
             isSelected = false;
         }
 
-        if (isSelected && Input.GetMouseButtonDown(0))
+        if (!isSelected && Input.GetMouseButtonDown(0))
         {
             offset = transform.position - new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
         }
@@ -77,7 +77,7 @@ public class BonusController : MonoBehaviour
     }
     private void CleanPipe(string newTag, string currentTag)
     {
-        if (currentTag == "DirtyPipe")
+        if (currentTag == "DirtyPipes")
         {
             Destroy(targetPipe.GetComponent<DirtyPipeController>());
         }

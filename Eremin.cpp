@@ -19,7 +19,6 @@ int main(void)
 
 	// Запуск тестовых драйверов
 	//testDeleteBlanks();
-	//testCutString();
 
 	int num_of_str;								// Количество строк текста для считывания
 
@@ -81,7 +80,7 @@ int main(void)
 	\param [in] begPos - индекс начала подстроки, которая будет удалена
 	\param [in] endPos - индекс конца подстроки, которая будет удалена
 */
-void cutString(char str[81], int beginPos, int endPos)
+void cut(char str[81], int beginPos, int endPos)
 {	
 	strcpy(str + beginPos, str + endPos + 1);
 }
@@ -150,10 +149,6 @@ void deleteBlanks(char str[81])
 		else if (right_edge - left_edge != 0)			// Между словами больше одного пробела
 		{
 			cutString(str, left_edge + 1, right_edge);	// Между символами остаётся один пробел
-		}
-		else											// Между словами один пробел, но его не нужно удалять
-		{
-			str_pointer++;								// Перевод указателя на канчало следующего слова
 		}
 	}
 }
@@ -406,4 +401,8 @@ void testCutString()
 		printf("All is OK\n\n");
 	}
 
+}
+
+void func() {
+	
 }
